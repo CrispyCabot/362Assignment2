@@ -3,6 +3,7 @@
 //Programming Assignment #2 2/28/20
 
 #include "header.h"
+#include "rates.c"
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
 	int population, sqMileage, pollution, crime, expense, highwayAmt;
 
 	//Values to be calculated
-	int popDensity, pollutionRating, trafficRating, crimePerCapita, expensePerCapita;
+	double popDensity, pollutionRating, trafficRating, crimePerCapita, expensePerCapita;
 
 	inputFile = fopen("cities1.txt", "r");
 	getInput(inputFile, cityName, &population, &sqMileage, &pollution, &crime, &expense, &highwayAmt);
@@ -27,7 +28,7 @@ void getInput(FILE *fp, char name[20], int *population, int *sqMileage, int *pol
 	fscanf(fp, "%s %d %d %d %d %d %d", name, population, sqMileage, pollution, crime, expense, highwayAmt);
 }
 
-int getPopulationDensity(int population, int sqMileage)
+double getPopulationDensity(int population, int sqMileage)
 {
 	return population/sqMileage;
 }
