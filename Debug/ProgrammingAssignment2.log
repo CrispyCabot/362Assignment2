@@ -1,0 +1,16 @@
+﻿  cities.c
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\header.h(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4477: 'fscanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 2 has type 'int'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 3 has type 'int'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 4 has type 'int'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 5 has type 'int'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 6 has type 'int'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): warning C4473: 'fscanf' : not enough arguments passed for format string
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): message : placeholders and their parameters expect 7 variadic arguments, but 6 were provided
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,20): message : the missing variadic argument 7 is required by format string '%d'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(12,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+C:\Users\cjbas\Desktop\Programming Assignments\ProgrammingAssignment2\cities.c(13,1): error C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : see declaration of 'fscanf'
