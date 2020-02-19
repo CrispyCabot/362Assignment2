@@ -12,3 +12,4 @@ void getInput(FILE*, char[], int*, int*, int*, int*, int*, int*);
 double getPopulationDensity(int, int);
 void computeRates(int, int, int, int, int, double*, double*, double*, double*);
 double getLivability(int, int, int, int);
+void updateStats(int*, int*, int*, char*[], int, char[]);

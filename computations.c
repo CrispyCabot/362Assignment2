@@ -12,3 +12,19 @@ double getLivability(int pollution, int trafficRating, int crimePerCapita, int e
 {
     return 100 - (pollution + trafficRating + crimePerCapita + expensePerCapita) / LIVABILITY_NUM;
 }
+
+double getPopulationDensity(int population, int sqMileage)
+{
+	return population/sqMileage;
+}
+
+void updateStats(int *totalLivability, int *totalCities, int *highestLivability, char *bestCity[], int livability, char name[])
+{
+	*totalLivability += livability;
+	*totalCities = *totalCities + 1;
+	if (livability > *highestLivability)
+	{
+		*highestLivability = livability;
+		*bestCity = name;
+	}
+}
