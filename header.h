@@ -8,8 +8,9 @@
 #define LIVABILITY_NUM 13.81
 
 /* Prototypes */
-void getInput(FILE*, char[], int*, int*, int*, int*, int*, int*);
+int getInput(FILE*, char[], int*, int*, int*, int*, int*, int*);
 double getPopulationDensity(int, int);
-void computeRates(int, int, int, int, int, double*, double*, double*, double*);
-double getLivability(int, int, int, int);
-void updateStats(int*, int*, int*, char*[], int, char[]);
+void computeRates(double, int, int, int, int, double*, double*, double*, double*);
+double getLivability(double, double, double, double);
+void updateStats(int*, int*, double*, char*, double, char*);
+void printSummary(char[], double, double);
