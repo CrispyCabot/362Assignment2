@@ -32,8 +32,8 @@ void main()
 	double popDensity, pollutionRating, trafficRating, crimePerCapita, expensePerCapita, livability;
 
 	//Totals
-	int totalLivability=0, totalCities=0;
-	double highestLivability=0;
+	int totalCities=0;
+	double highestLivability=0, totalLivability=0;
 	char bestCity[50];
 
 	inputFile = fopen("cities2.txt", "r"); //Opens input file
@@ -65,5 +65,5 @@ New_York_City                 829.75                                   1.01
 Seattle                       373.01                                   56.78
 Washington_DC                 493.87                                   41.80
 
-Of the 10 cities, the average livability was 50.80 and the most liveable was Las_Vegas with a score of 84.91
+Of the 10 cities, the average livability was 51.40 and the most liveable was Las_Vegas with a score of 84.91
 */

@@ -24,7 +24,7 @@ double getPopulationDensity(int population, int sqMileage)
 }
 
 //Updates totalLivability and totalCities value, checks if this city is the new best city
-void updateStats(int *totalLivability, int *totalCities, double *highestLivability, char *bestCity, double livability, char *name)
+void updateStats(double *totalLivability, int *totalCities, double *highestLivability, char *bestCity, double livability, char *name)
 {
 	*totalLivability += livability;
 	*totalCities = *totalCities + 1;
